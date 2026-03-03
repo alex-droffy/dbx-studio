@@ -1,14 +1,67 @@
-# DBX Studio
+<div align="center">
 
+<img src="apps/desktop/public/assets/dbx-logo-new.png" alt="DBX Studio Logo" width="200"/>
+
+
+
+[![Discord](https://img.shields.io/badge/DISCORD-JOIN%20COMMUNITY-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/YOUR_DISCORD_INVITE)
+
+</div>
+
+# DBX Studio
 AI-powered open-source database management tool that simplifies database interactions with secure connection storage and AI-assisted SQL query writing.
 
-## Features
+---
 
-- **Multi-Database Support**: PostgreSQL, MySQL, SQLite, MSSQL, Snowflake (coming soon)
-- **AI-Powered SQL**: Generate and optimize queries using natural language with Claude, OpenAI, or AWS Bedrock
-- **Cross-Platform**: Desktop app (Electron) and Web app
-- **Query History**: Track and manage your SQL queries
-- **Workspace Management**: Organize connections and queries
+## ✨ Try DBX Studio
+
+[![Download DBX Studio](apps/web/public/assets/Whisk_bbc181a05014fcc973741ec56f489558dr%201.png)](https://www.dbxstudio.com/download)
+
+
+---
+
+## ✨ Features
+
+### 🧠 Intelligent Query Generation
+Describe what you want in plain English — DBX generates optimized SQL queries instantly.
+
+![AI SQL Chat](apps/web/public/assets/AI%20SQL%20Chat.png)
+
+### 📊 Schema-Aware Workspace
+Understands your tables, relationships, and columns to generate accurate queries.
+
+![BI Analytics](apps/web/public/assets/BI%20Analytics.png)
+
+### 🔍 Smart Data Exploration
+Browse tables, preview rows, filter results, and inspect relationships visually.
+
+![Table Operations](apps/web/public/assets/Table%20Operations.png)
+
+### 🛠️ Full SQL Editor
+
+- Syntax highlighting
+- Autocomplete
+- Query history
+- Multi-tab workspace
+
+### 🔌 Multi-Database Support
+
+**Supports:**
+
+- PostgreSQL
+- Snowflake
+- SQLite
+- Supabase
+- Amazon Redshift
+- MySQL
+- MSSQL
+- *More coming soon*
+
+### 🔒 Secure by Design
+
+- Local-first architecture
+- Secure credential handling
+- No data stored without your permission
 
 ## Project Structure
 
