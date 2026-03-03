@@ -100,21 +100,7 @@ dbx-studio/
 - Bun >= 1.0
 - pnpm >= 8
 
-## Option 1 Docker
-
-### Linux/MacOS (Bash/Zsh Shell):
-
-```bash
-docker run -it --name dbx-studio -p 8080:8080 -v "./app_data:/app/data" -v "./api_data:/app/apps/api/data" ghcr.io/dbxstudio/dbx-studio:latest
-```
-
-### Windows (PowerShell):
-
-```bash
-docker run -it --name dbx-studio -p 8080:8080 -v "${PWD}\app_data:/app/data" -v "${PWD}\api_data:/app/apps/api/data" ghcr.io/dbxstudio/dbx-studio:latest
-```
-
-## Option 2 Electron App
+## Electron App
 
 ### 1. Install Dependencies
 
